@@ -4,7 +4,13 @@
  * Object memiliki property: name, age, major.
  * Note: Gunakan JavaScript Modern.
  */
-const users = [];
+const users = [
+  {nama: "Abdullah", age: 30, major: "Dokter"},
+  {nama: "Alexander", age: 20, major: "Hukum"},
+  {nama: "Simanggi", age: 25, major: "Teknik Sipil"},
+  {nama: "Syarip", age: 45, major: "Ilmu Komputer"},
+  {nama: "Ucup", age: 55, major: "Guru"},
+];
 
 /**
  * Helper async
