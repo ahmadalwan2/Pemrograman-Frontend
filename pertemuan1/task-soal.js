@@ -28,7 +28,10 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
  */
 const all = async () => {
   await delay(300);
-  // isi di sini
+    // isi di sini
+    for (const namaSiswa of users) {
+      console.log(namaSiswa);
+    }
 };
 
 /**
