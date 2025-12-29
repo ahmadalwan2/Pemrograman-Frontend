@@ -29,8 +29,8 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const all = async () => {
   await delay(300);
     // isi di sini
-    for (const namaSiswa of users) {
-      console.log(namaSiswa);
+    for (const dataSiswa of users) {
+      console.log(dataSiswa);
     }
 };
 
@@ -46,6 +46,8 @@ const all = async () => {
 const store = async (user) => {
   await delay(300);
   // isi di sini
+  users.push(user);
+  await all();
 };
 
 /**
