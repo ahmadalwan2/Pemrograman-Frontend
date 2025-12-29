@@ -7,7 +7,7 @@
 const users = [
   {nama: "Abdullah", age: 30, major: "Dokter"},
   {nama: "Alexander", age: 20, major: "Hukum"},
-  {nama: "Simanggi", age: 25, major: "Teknik Sipil"},
+  {nama: "Nurul", age: 25, major: "Teknik Sipil"},
   {nama: "Syarip", age: 45, major: "Ilmu Komputer"},
   {nama: "Ucup", age: 55, major: "Guru"},
 ];
@@ -62,6 +62,8 @@ const store = async (user) => {
 const update = async (index, user) => {
   await delay(300);
   // isi di sini
+  users.splice(index, 1, user)
+  await all();
 };
 
 /**
@@ -76,6 +78,7 @@ const update = async (index, user) => {
 const destroy = async (index) => {
   await delay(300);
   // isi di sini
+  
 };
 
 /**
