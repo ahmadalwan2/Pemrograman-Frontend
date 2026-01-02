@@ -1,11 +1,11 @@
-const Profile = () => {
+const Profile = ({ nama, alamat, umur }) => {
     return (
         <div>
             <h3>ABout Me</h3>
             <ul>
-                <li>Nama : </li>
-                <li>Alamat : </li>
-                <li>Umur : </li>
+                <li>Nama : {nama}</li>
+                <li>Alamat : {alamat}</li>
+                <li>Umur : {umur}</li>
             </ul>
         </div>
     )
