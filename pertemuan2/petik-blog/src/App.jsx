@@ -2,13 +2,14 @@ import { Component, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './Header'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Header />
+    <Header/>
       <h1>To-do List :</h1>
       <ol>
         <li>Mengerjakan tugas front end</li>
