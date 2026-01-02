@@ -2,3 +2,4 @@
 
 1. Nama file type jsx harus diawali Kapital
 2. Nama function juga harus diawali Kapital
+3. Membuat component sebelumnya itu menggunakkan class, tapi sekarang lebih sering pakai function
