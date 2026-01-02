@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+    <Header />
       <h1>To-do List :</h1>
       <ol>
         <li>Mengerjakan tugas front end</li>
@@ -16,6 +17,18 @@ function App() {
       </ol>
     </>
   )
+}
+
+function Header() {
+    return (
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Login</li>
+        </ul>
+      </nav>
+    )
 }
 
 export default App
