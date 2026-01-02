@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './Header'
 import Footer from './Footer'
+import Profile from './Profile'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
         <li>Mempelajari tutorial react js</li>
         <li>Mengulang-ulang materi JavaScript</li>
       </ol>
+      <Profile/>
       <img src="https://picsum.photos/200/300" alt="Tidak mendukung diperangkat anda" />
       <Footer nama="wan.studio"/>
     </>
