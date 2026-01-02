@@ -8,7 +8,12 @@ function App() {
 
   return (
     <>
-      <h1>Hello World</h1>
+      <h1>To-do List :</h1>
+      <ol>
+        <li>Mengerjakan tugas front end</li>
+        <li>Mempelajari tutorial react js</li>
+        <li>Mengulang-ulang materi JavaScript</li>
+      </ol>
     </>
   )
 }
