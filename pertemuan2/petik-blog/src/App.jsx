@@ -17,6 +17,7 @@ function App() {
         <li>Mempelajari tutorial react js</li>
         <li>Mengulang-ulang materi JavaScript</li>
       </ol>
+      <img src="https://picsum.photos/200/300" alt="Tidak mendukung diperangkat anda" />
       <Footer nama="wan.studio"/>
     </>
 
