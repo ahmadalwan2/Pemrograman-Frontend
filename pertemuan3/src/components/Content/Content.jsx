@@ -4,12 +4,12 @@ const Content = ({ nama, membership }) => {
                 <table border={1}>
                     <thead>
                         <tr>
-                            <td colSpan={2}>{nama}</td>
+                            <td colSpan={2} style={{ textAlign: "center", fontWeight: "bold"}}>{nama}</td>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td colSpan={2}>{membership}</td>
+                            <td colSpan={2} style={{ textAlign: "center"}}>{membership}</td>
                         </tr>
                         <tr>
                             <td>
