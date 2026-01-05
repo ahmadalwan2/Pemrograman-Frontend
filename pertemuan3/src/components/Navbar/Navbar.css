@@ -1,36 +1,67 @@
 .navbar {
-    background-color: #750e21;
-    color: #f9f9f9;
-    padding: 10px;
+  background-color: #750e21;
+  color: #fff;
+  padding: 10px;
 }
 
 .navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .navbar ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .navbar ul li:last-child {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .navbar ul li a {
-    display: block;
-    text-decoration: none;
-    color: #f9f9f9;
-    font-weight: 500;
-    transition: color 0.3 ease;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 0.5rem;
-
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .navbar ul li:hover {
-    background-color: #ffcc00a6;
+  background-color: #e4940a;
 }
 
+/* Layar Desktop */
+@media (min-width: 768px) {
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .navbar ul li {
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+
+  .navbar ul li:last-child {
+    margin-right: 0;
+  }
+
+  .navbar ul li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar ul li a:hover {
+    background-color: #ffcc00;
+    color: #750e21;
+    border-radius: 6px;
+  }
+
+  .navbar ul li:hover {
+    background-color: transparent;
+  }
+}
