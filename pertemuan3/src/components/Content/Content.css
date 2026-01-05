@@ -1,4 +1,4 @@
-.card {
+.table {
     background-color: #f9f9f9;
     width: 300px;
     margin: 10px auto;
@@ -6,7 +6,7 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.card-body {
+.table-body {
     text-align: center;
 }
 
@@ -22,7 +22,7 @@
     padding-bottom: 20px;
 }
 
-button {
+.table-body button {
     padding: 14px 18px;
     border: none;
     background-color: #2049f0cf;
