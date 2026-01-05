@@ -1,4 +1,5 @@
 import "./Card.css";
+import { FaCheck } from "react-icons/fa";
 
 const Card = ({
   title = 0,
@@ -25,10 +26,10 @@ const Card = ({
       </div>
       <div className="card-body">
         <ul>
-          <li>{benefit1}</li>
-          <li>{benefit2}</li>
-          <li>{benefit3}</li>
-          <li>{benefit4}</li>
+          <li><FaCheck/> {benefit1}</li>
+          <li><FaCheck/> {benefit2}</li>
+          <li><FaCheck/> {benefit3}</li>
+          <li><FaCheck/> {benefit4}</li>
         </ul>
         <button className={`btn ${isPopular ? "btn-popular" : ""}`}>
           Purchase Plan

@@ -68,3 +68,9 @@
   background-color: #007bff;
   color: #fff;
 }
+
+li svg {
+    color: #007bff;
+    font-size: rem;
+    gap: 20px;
+}
