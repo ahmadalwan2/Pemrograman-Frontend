@@ -25,13 +25,13 @@ const Content = ({ nama, membership }) => {
 
         return (
             <div>
-                <table className="card">
-                    <thead className="card-head">
+                <table className="table">
+                    <thead className="table-head">
                         <tr>
                             <td className="user" colSpan={2}>{nama}</td>
                         </tr>
                     </thead>
-                    <tbody className="card-body">
+                    <tbody className="table-body">
                         <tr>
                             <td className="member" colSpan={2}>{membership}</td>
                         </tr>
@@ -40,7 +40,7 @@ const Content = ({ nama, membership }) => {
                                 <button>Message</button>
                             </td>
                         <td>
-                            <button>Subscribe</button>
+                            <button className="table-body">Subscribe</button>
                         </td>
                         </tr>
                     </tbody>
