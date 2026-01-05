@@ -74,3 +74,8 @@ li svg {
     font-size: rem;
     gap: 20px;
 }
+small {
+    font-size: 20px;
+    padding-bottom: 40px;
+    align-items: center;
+}
