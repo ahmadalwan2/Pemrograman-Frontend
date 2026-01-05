@@ -1,9 +1,10 @@
-const Footer = () => {
+import "./Footer.css"
+
+const Footer = ({footer}) => {
     return (
-        <div>
-            <h3>Copyright &copy; 2026 Developed by Wan.studio</h3>
-            <span>Make with &#10084</span>
-        </div>
+        <footer className="footer">
+            <h3>{footer}</h3>
+        </footer>
     )
 }
 
