@@ -1,3 +1,5 @@
+import "./Card.css"
+
 const Card = ({ title, price, list1, list2, list3, list4 }) => {
         return (
             <div className="card">
@@ -17,3 +19,5 @@ const Card = ({ title, price, list1, list2, list3, list4 }) => {
             </div>
         )
 }
+
+export default Card;
