@@ -1,12 +1,18 @@
 import './Header.css';
 
-function Header({src, alt}) {
+function Header() {
     return (
-        <div>
-            {/* <img className='imageHero' src={src} alt={alt} /> */}
-            <h2 className='Hero'>Jelajahi Keindahan Alam Indonesia</h2>
-            <p className='CTA'>Temukan destinasi wisata alam terbaik, hotel, kuliner, dan penginapan yang sempurna untuk petualangan Anda</p>
+        <div className='Home'>
+            <div className='photo-row'>
+                <img src="../../public/img/01.jpg" alt="this photo not support in your device" />
+                <img src="../../public/img/02.jpg" alt="this photo not support in your device" />
+                <img src="../../public/img/03.jpg" alt="this photo not support in your device" />
+            </div>
+            <h2 className='Hero'>Jelajahi <span className='highlight'>Keindahan</span> <br />Alam Indonesia</h2>
+            <p className='CTA'>Temukan destinasi wisata alam terbaik, hotel, kuliner, dan <br />penginapan yang sempurna untuk petualangan Anda</p>
+            <div className='divBtn'>
             <button className='btnHeader'><a href="#">Jelajahi Sekarang</a></button>
+            </div>
         </div>
     )
 }
