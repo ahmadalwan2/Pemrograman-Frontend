@@ -10,8 +10,9 @@ function Footer() {
         <p className="footer-desc">Semua kebutuhan wisata Anda dalam satu tempat</p>
 
         <div className="footer-links">
-          <a href="#about">Tentang Kami</a>
-          <a href="#services">Layanan</a>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
           <a href="#">FAQ</a>
         </div>
 

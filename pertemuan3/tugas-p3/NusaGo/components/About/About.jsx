@@ -1,4 +1,6 @@
 import './About.css';
+import { FaStar } from "react-icons/fa6";
+
 
 function About({ txt }) {
   return (
@@ -27,7 +29,12 @@ function About({ txt }) {
             <p className="stat-label">Total Destinasi</p>
           </div>
           <div className="stat-box">
-            <h3 className="stat-number">4.9 <span className='starYellow'>★</span></h3>
+            <div className="star-wrapper">
+            <span className="stat-number">4.9</span>
+            <span className='star-icon'>
+              <FaStar size={28}/>
+            </span>
+            </div>
             <p className="stat-label">Rating Pengguna</p>
           </div>
         </div>

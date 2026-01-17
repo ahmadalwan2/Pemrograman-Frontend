@@ -1,5 +1,5 @@
 .about {
-  padding: 150px 20px;
+  padding: 90px 20px;
   background-color: #f9f9f9;
   text-align: center;
 }
@@ -105,8 +105,15 @@
   margin-top: 8px;
 }
 
-.starYellow {
-    color: #f1da2b;
+.star-icon svg {
+  color: rgba(205, 186, 17, 0.82);
+}
+
+.star-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 @keyframes fadeUpStats {
