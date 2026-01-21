@@ -1,12 +1,15 @@
 import "./Search.css";
+import Navbar from "../Navbar/Navbar.jsx";
 import { useState } from "react";
 import { FaStar } from "react-icons/fa6";
+import Footer from "../Footer/Footer.jsx";
 
 function Search() {
   const [query, setQuery] = useState("");
 
   return (
     <>
+    <Navbar/>
       <input
         type="text"
         placeholder="Cari destinasi..."
@@ -62,6 +65,7 @@ function Search() {
           </div>
         )}
       </div>
+          <Footer/>
     </>
   );
 }
