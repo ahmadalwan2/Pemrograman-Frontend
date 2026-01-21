@@ -1,22 +1,23 @@
 import './App.css'
-import Navbar from '../components/Navbar/Navbar.jsx';
 import Header from '../components/Header/Header.jsx';
 import About from '../components/About/About.jsx';
 import Services from '../components/Services/Services.jsx';
-import Footer from '../components/Footer/Footer.jsx';
+import ErrorPage from '../components/Error/Error.jsx';
 import Search from '../components/Search/Search.jsx';
+import { Route, Routes } from 'react-router-dom';
 
 
 function App() {
   return (
 
     <>
-    <Navbar/>
-      <Header button={"btn"}/>
-        <Services/>
-          <About txt={"About us"}/> 
-            <Search/>
-            <Footer/> 
+      <Routes>
+        <Route path="/" element={<Header/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/services" element={<Services/>}/>
+        <Route path="/search" element={<Search/>}/>
+        <Route path="*" element={<ErrorPage/>}/>
+      </Routes>
     </>
 
   )
