@@ -1,12 +1,15 @@
 import './About.css';
+import Navbar from '../Navbar/Navbar.jsx';
+import Footer from '../Footer/Footer.jsx';
 import { FaStar } from "react-icons/fa6";
 
 
-function About({ txt }) {
+function About() {
   return (
     <section className="about" id="about">
+      <Navbar/>
       <div className="about-container">
-        <h2 className="about-title">{txt}</h2>
+        <h2 className="about-title">About us</h2>
         <p className="about-text">
           NusaGO hadir untuk membantu Anda menjelajahi keindahan alam Indonesia. 
           <br />Kami menyediakan informasi destinasi wisata, hotel, kuliner, dan penginapan 
@@ -39,6 +42,7 @@ function About({ txt }) {
           </div>
         </div>
       </div>
+      <Footer/>
     </section>
   );
 }
