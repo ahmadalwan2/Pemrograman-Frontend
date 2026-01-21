@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar({}) {
@@ -5,10 +6,18 @@ function Navbar({}) {
         <nav className="navbar">
             <span className="logo-navbar">Ahgoda</span>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#footer">FAQ</a></li>
+                    <li>
+                        <NavLink to={"/"}>Home</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={"/about"}>About</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={"/services"}>Services</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={"/search"}>Search</NavLink>
+                    </li>                    
             </ul>
         </nav>
     )
