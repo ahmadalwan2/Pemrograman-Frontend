@@ -96,6 +96,7 @@
     cursor: pointer;
     max-width: 170px;
     border-radius: 12px;
+    margin-bottom: 50px;
 }
 
 .btnHeader a {
