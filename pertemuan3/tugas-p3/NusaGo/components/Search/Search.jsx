@@ -30,7 +30,7 @@ function Search() {
           <div className="Card-body">
             <img src="../../public/img/07.jpg" alt="Hotel VVIP" />
             <p>Hotel VVIP</p>
-            <small className="desc">Rp.200,00; | Permalam</small>
+            <small className="desc">Rp.200,00 | Permalam</small>
             <span>Hotel VVIP dengan private pool, layanan eksklusif, dan sunset Bali yang memukau</span>
             <div className="icons">
               <FaStar size={18}/><FaStar size={18}/><FaStar size={18}/><FaStar size={18}/><FaStar size={18}/>
@@ -43,7 +43,7 @@ function Search() {
           <div className="Card-body">
             <img src="../../public/img/07.jpg" alt="Villa Borneo" />
             <p>Villa Borneo</p>
-            <small className="desc">Rp.900,00; | Permalam</small>
+            <small className="desc">Rp.900,00 | Permalam</small>
             <span>Villa Borneo menghadirkan nuansa budaya nusantara dalam suasana tenang dan alami</span>
             <div className="icons">
               <FaStar size={18}/><FaStar size={18}/><FaStar size={18}/><FaStar size={18}/><FaStar size={18}/>
@@ -56,7 +56,7 @@ function Search() {
           <div className="Card-body">
             <img src="../../public/img/07.jpg" alt="Gunung Bromo" />
             <p>Gunung Bromo</p>
-            <small className="desc">Rp.200,00; | Permalam</small>
+            <small className="desc">Rp.200,00 | Permalam</small>
             <span>Ikon wisata Jawa Timur dengan sunrise legendaris, lautan pasir luas, dan kawah aktif yang menakjubkan</span>
             <div className="icons">
               <FaStar size={18}/><FaStar size={18}/><FaStar size={18}/><FaStar size={18}/><FaStar size={18}/>
