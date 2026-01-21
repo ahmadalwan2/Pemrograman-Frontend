@@ -2,6 +2,9 @@ import './Services.css';
 import { FaHotel } from "react-icons/fa";
 import { FaCoffee } from "react-icons/fa";
 import { FaProcedures } from "react-icons/fa";
+import Navbar from '../Navbar/Navbar.jsx';
+import Footer from '../Footer/Footer.jsx';
+
 
 
 
@@ -9,6 +12,7 @@ import { FaProcedures } from "react-icons/fa";
 function Services() {
   return (
     <section className="services" id="services">
+      <Navbar/>
       <h2 className="services-title">Services</h2>
       <p className="services-subtitle">Semua kebutuhan wisata Anda dalam satu tempat</p>
 
@@ -31,6 +35,7 @@ function Services() {
           <p className="service-desc">Berbagai pilihan penginapan nyaman dari kelas menengah hingga VVIP</p>
         </div>
       </div>
+      <Footer/>
     </section>
   );
 }
