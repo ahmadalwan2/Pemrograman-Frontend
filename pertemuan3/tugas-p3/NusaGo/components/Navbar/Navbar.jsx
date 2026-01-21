@@ -7,16 +7,16 @@ function Navbar({}) {
             <span className="logo-navbar">Ahgoda</span>
             <ul>
                     <li>
-                        <NavLink to={"/"}>Home</NavLink>
+                        <NavLink to={"/"} className={({isActive}) => isActive ? "active" : ""}>Home</NavLink>
                     </li>
                     <li>
-                        <NavLink to={"/about"}>About</NavLink>
+                        <NavLink to={"/about"} className={({isActive}) => isActive ? "active" : ""}>About</NavLink>
                     </li>
                     <li>
-                        <NavLink to={"/services"}>Services</NavLink>
+                        <NavLink to={"/services"} className={({isActive}) => isActive ? "active" : ""}>Services</NavLink>
                     </li>
                     <li>
-                        <NavLink to={"/search"}>Search</NavLink>
+                        <NavLink to={"/search"} className={({isActive}) => isActive ? "active" : ""}>Search</NavLink>
                     </li>                    
             </ul>
         </nav>

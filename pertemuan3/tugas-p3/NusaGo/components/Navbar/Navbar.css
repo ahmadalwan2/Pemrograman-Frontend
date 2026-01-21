@@ -18,6 +18,11 @@
     cursor: pointer;
 }
 
+/* Gunakan .active (bukan .isActive) karena NavLink kasih class "active" otomatis */
+.active {
+    color: #009966 !important;
+}
+
 .navbar ul {
     list-style: none;
     display: flex;
