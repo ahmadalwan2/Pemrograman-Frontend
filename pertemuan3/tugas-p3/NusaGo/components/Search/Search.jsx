@@ -1,8 +1,8 @@
-import "./Search.css";
 import Navbar from "../Navbar/Navbar.jsx";
 import { useState } from "react";
 import { FaStar } from "react-icons/fa6";
 import Footer from "../Footer/Footer.jsx";
+import "./Search.css";
 
 function Search() {
   const [query, setQuery] = useState("");

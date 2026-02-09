@@ -2,8 +2,8 @@ import './Services.css';
 import { FaHotel } from "react-icons/fa";
 import { FaCoffee } from "react-icons/fa";
 import { FaProcedures } from "react-icons/fa";
-import Navbar from '../Navbar/Navbar.jsx';
 import Footer from '../Footer/Footer.jsx';
+import Navbar from '../Navbar/Navbar.jsx';
 
 
 

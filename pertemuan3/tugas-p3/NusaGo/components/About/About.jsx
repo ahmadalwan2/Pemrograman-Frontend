@@ -1,7 +1,7 @@
-import './About.css';
 import Navbar from '../Navbar/Navbar.jsx';
 import Footer from '../Footer/Footer.jsx';
 import { FaStar } from "react-icons/fa6";
+import './About.css';
 
 
 function About() {
